@@ -17,7 +17,9 @@ public class Programm {
 
     private static String[][] result = new String[werte.length][werte[1].length];
 
-    
+       public static void main(String[] args) {
+     
+    }
    
 //Changing true and false into (X and Dot)
 
@@ -35,7 +37,6 @@ public class Programm {
                 }
             }
         }
-
         for (int i = 0; i < werte.length; i++) {
             for (int j = 0; j < werte[1].length; j++) {
                 System.out.print(result[i][j] + ", ");
@@ -46,37 +47,10 @@ public class Programm {
 
 //The main method to find the deep.
 
-    public static void findTheAmount() { // dont undersr=tadt bullshit man 
-        int a = 0;
-
-        for (int i = 0; i < werte.length; i++) {
-            for (int j = 0; j < werte[1].length; j++) {
-                    if(result[i][j] != "X"){
-
-                    }else if(result[i+1][j] == "."){
-                            for(int k = j; k < werte.length;){
-                              int minus = k;
-                              int plus = k;
-                              if(result[i][plus + 1] == "X"){
-                                  a++;
-                                  plus++;
-                              }
-                              if(result[i][minus-1] == "X"){
-                                  a++;
-                                  minus--;
-                              }
-                              else{
-                                  i--;
-                              }
-                            }
-                        }
-                    else{break;}
-                    }
-                }
-
-        System.out.println(a);
-        }
+    public static void findTheAmount() { 
+        
     }
+  }
 
 
 
