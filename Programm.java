@@ -20,6 +20,8 @@ public class Programm {
     public static void main(String[] args) {
         writeX(werte);
     }
+    
+    //Changing true and false to (X and Dot)
     public static void writeX(boolean[][] werte) {
         Boolean dot = false;
         Boolean x = true;
@@ -40,38 +42,11 @@ public class Programm {
             System.out.println("\n");
         }
     }
-
+    
+//The main method to find Deep
     public static void findTheAmount() {
-        int a = 0;
-
-        for (int i = 0; i < werte.length; i++) {
-            for (int j = 0; j < werte[1].length; j++) {
-                    if(result[i][j] != "X"){
-
-                    }else if(result[i+1][j] == "."){
-                            for(int k = j; k < werte.length;){
-                              int minus = k;
-                              int plus = k;
-                              if(result[i][plus + 1] == "X"){
-                                  a++;
-                                  plus++;
-                              }
-                              if(result[i][minus-1] == "X"){
-                                  a++;
-                                  minus--;
-                              }
-                              else{
-                                  i--;
-                              }
-                            }
-                        }
-                    else{break;}
-                    }
-                }
-
-        System.out.println(a);
-        }
+      
     }
-
+}
 
 
