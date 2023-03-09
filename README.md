@@ -1,2 +1,2 @@
 # GraphTheorie
-Попраграммируем вместе, нет иди нахуй
+POS Theorie ubueng.
