@@ -21,6 +21,16 @@ public class Programm {
         writeX(werte);
     }
     
+    
+    //The main method to find Deep
+    public static void findTheAmount() {
+      
+    }
+    
+    
+    
+ 
+    
     //Changing true and false to (X and Dot)
     public static void writeX(boolean[][] werte) {
         Boolean dot = false;
@@ -42,11 +52,7 @@ public class Programm {
             System.out.println("\n");
         }
     }
-    
-//The main method to find Deep
-    public static void findTheAmount() {
-      
-    }
+   
 }
 
 
