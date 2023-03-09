@@ -18,7 +18,7 @@ public class Programm {
     private static String[][] result = new String[werte.length][werte[1].length];
 
     public static void main(String[] args) {
-        writeX(werte);
+        writeX(werte); // sout 
     }
     
     
@@ -30,7 +30,7 @@ public class Programm {
     
     
  
-    
+    //the WHOLE THIS THING is just to sout " X " and " . " 's 
     //Changing true and false to (X and Dot)
     public static void writeX(boolean[][] werte) {
         Boolean dot = false;
