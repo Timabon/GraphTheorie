@@ -38,7 +38,7 @@ public class Programm {
         }
     }
 
-    public static void findTheAmount() {
+    public static void findTheAmount() { // dont undersr=tadt bullshit man 
         int a = 0;
 
         for (int i = 0; i < werte.length; i++) {
